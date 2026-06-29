@@ -12,4 +12,4 @@ S3DataSource_1782769848785 = spark.read.format("csv") \
     .option("header", "true") \
     .option("recursiveFileLookup", "true") \
     .option("sep", ",") \
-    .load("s3://amazon-sagemaker-211125551132-us-east-2-cc5nijmuehwkyx/shared/")
+    .load("s3://amazon-sagemaker-211125551132-us-east-2-cc5nijmuehwkyx/shared/abc")
